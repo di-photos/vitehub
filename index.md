@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Nasu"
+  name: "NAS·U"
   text: "More Share More Fun"
   tagline: My great project tagline
   actions:
@@ -15,11 +15,13 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
+  - title: NAS硬件杂谈
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: NAS系统相关
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: NAS应用
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: NAS使用指引
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
