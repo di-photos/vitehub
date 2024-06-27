@@ -2,9 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Nasu",
+  title: "NAS·U",
   base: '/vitehub/',
   description: "More Share More Fun",
+  head: [['link', { rel: 'icon', href: '/vitehub/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
