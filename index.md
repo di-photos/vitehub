@@ -6,7 +6,7 @@ hero:
   name: "NAS搭建与应用"
   tagline: NAS硬件搭建、系统安装及配置、Docker及虚拟机应用交流
   image:
-    src: /Index.png
+    src: /nas.png
     alt: NAS·U
   actions:
     - theme: brand
