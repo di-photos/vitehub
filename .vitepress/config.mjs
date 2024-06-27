@@ -8,6 +8,8 @@ export default defineConfig({
   head: [['link', { rel: 'icon', href: '/vitehub/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    siteTitle: 'NAS·U',
+    logo: "/Logo.png",        
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }

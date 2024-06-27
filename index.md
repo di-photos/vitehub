@@ -3,15 +3,23 @@
 layout: home
 
 hero:
-  name: "NAS·U"
-  text: "More Share More Fun"
-  tagline: My great project tagline
+  name: "NAS搭建与应用"
+  tagline: NAS硬件搭建、系统安装及配置、Docker及虚拟机应用交流
+  image:
+    src: /Index.png
+    alt: NAS·U
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 硬件杂谈
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 系统相关
+      link: /api-examples
+    - theme: alt
+      text: NAS应用
+      link: /api-examples
+    - theme: alt
+      text: 使用指引
       link: /api-examples
 
 features:
