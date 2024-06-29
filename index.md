@@ -17,7 +17,7 @@ hero:
       link: /api-examples
     - theme: alt
       text: NAS应用
-      link: /api-examples
+      link: /全自动化观影之 MoviePilot 安装与使用
     - theme: alt
       text: 使用指引
       link: /api-examples
