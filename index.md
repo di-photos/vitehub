@@ -11,16 +11,16 @@ hero:
   actions:
     - theme: brand
       text: 硬件杂谈
-      link: /markdown-examples
+      link: /Hardware/NAS硬件杂谈：NAS机箱选择
     - theme: alt
       text: 系统相关
-      link: /api-examples
+      link: /System/NAS系统相关：各Nas系统的分析对比
     - theme: alt
       text: NAS应用
-      link: /全自动化观影之 MoviePilot 安装与使用
+      link: /Application/NAS应用：PVE下安装WG-Easy
     - theme: alt
       text: 使用指引
-      link: /api-examples
+      link: /Guide/NAS使用指引：物理群晖
 
 features:
   - title: NAS硬件杂谈
