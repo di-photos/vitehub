@@ -1,4 +1,4 @@
-# NAS应用：Unraid 引导盘制作Flash GUID为"0000"结尾的处理方法
+# NAS应用 | Unraid 引导盘制作Flash GUID为"0000"结尾的处理方法
 
 May 23, 2024
 

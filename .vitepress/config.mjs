@@ -21,20 +21,20 @@ export default defineConfig({
       { text: 'NAS硬件杂谈',
         items: [
           {
-            text: 'NAS机箱选择',
-            link: '/Hardware/NAS硬件杂谈：NAS机箱选择'
+            text: 'NAS机箱',
+            link: '/Hardware/NAS Case'
           },
           {
             text: '板U平台', 
-            link: '/Hardware/NAS硬件杂谈：板U平台'
+            link: '/Hardware/Motherboard and CPU'
           },
           {
-            text: '机箱风扇选择', 
-            link: '/Hardware/NAS硬件杂谈：机箱风扇选择'
+            text: '机箱风道/风扇', 
+            link: '/Hardware/Case Duct and Fan'
           },
           {
-            text: '电源选择', 
-            link: '/Hardware/NAS硬件杂谈：电源'
+            text: '电源', 
+            link: '/Hardware/Power Supply'
           }
         ]
       },
@@ -61,7 +61,7 @@ export default defineConfig({
             link: '/Application/Flash GUID ends in 0000 processing method'
           },
           {
-            text: '全自动化观影之 MoviePilot 安装与使用', 
+            text: 'MoviePilot 安装与使用', 
             link: '/Application/MoviePilot Installation and Use'
           }
         ]
@@ -89,10 +89,10 @@ export default defineConfig({
         text: '一、NAS硬件杂谈',
         collapsed: false,
         items: [
-          { text: 'NAS机箱选择', link: '/Hardware/NAS硬件杂谈：NAS机箱选择' },
-          { text: '板U平台', link: '/Hardware/NAS硬件杂谈：板U平台' },
-          { text: '机箱风扇选择', link: '/Hardware/NAS硬件杂谈：机箱风扇选择' },
-          { text: '电源', link: '/Hardware/NAS硬件杂谈：电源' },  
+          { text: 'NAS机箱', link: '/Hardware/NAS Case' },
+          { text: '板U平台', link: '/Hardware/Motherboard and CPU' },
+          { text: '机箱风道/风扇', link: '/Hardware/Case Duct and Fan' },
+          { text: '电源', link: '/Hardware/Power Supply' },  
         ]
       },
       {
@@ -109,7 +109,7 @@ export default defineConfig({
         items: [
           { text: 'PVE下安装WG-Easy', link: '/Application/Installation of WG-Easy under PVE' },
           { text: 'Unraid 引导盘制作Flash GUID为0000结尾的处理方法', link: '/Application/Flash GUID ends in 0000 processing method' },
-          { text: '全自动化观影之 MoviePilot 安装与使用', link: '/Application/MoviePilot Installation and Use' }
+          { text: 'MoviePilot 安装与使用', link: '/Application/MoviePilot Installation and Use' }
         ]
       },
       {

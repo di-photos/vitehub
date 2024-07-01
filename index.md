@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 硬件杂谈
-      link: /Hardware/NAS硬件杂谈：NAS机箱选择
+      link: /Hardware/NAS Case
     - theme: alt
       text: 系统相关
       link: /System/Comparative analysis of Nas systems
