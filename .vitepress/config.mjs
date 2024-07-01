@@ -42,11 +42,11 @@ export default defineConfig({
         items: [
           {
             text: '各Nas系统的分析对比',
-            link: '/System/NAS系统相关：各Nas系统的分析对比'
+            link: '/System/Comparative analysis of Nas systems'
           },
           {
-            text: 'RAID阵列', 
-            link: '/System/NAS系统相关：RAID阵列'
+            text: '常见的RAID阵列', 
+            link: '/System/Raid Array'
           }
         ]
       },
@@ -54,15 +54,15 @@ export default defineConfig({
         items: [
           {
             text: 'PVE下安装WG-Easy',
-            link: '/Application/NAS应用：PVE下安装WG-Easy'
+            link: '/Application/Installation of WG-Easy under PVE'
           },
           {
             text: 'Unraid 引导盘制作Flash GUID为0000结尾的处理方法', 
-            link: '/Application/NAS应用：Unraid 引导盘制作Flash GUID为0000结尾的处理方法'
+            link: '/Application/Flash GUID ends in 0000 processing method'
           },
           {
             text: '全自动化观影之 MoviePilot 安装与使用', 
-            link: '/Application/NAS应用：全自动化观影之 MoviePilot 安装与使用'
+            link: '/Application/MoviePilot Installation and Use'
           }
         ]
       },
@@ -70,11 +70,11 @@ export default defineConfig({
         items: [
           {
             text: '物理群晖',
-            link: '/Guide/NAS使用指引：物理群晖'
+            link: '/Guide/Synology Installation'
           },
           {
             text: 'Unrai及虚拟群晖', 
-            link: '/Guide/NAS使用指引：Unrai及虚拟群晖'
+            link: '/Guide/Unrai and Virtual Synology'
           }
         ]
       },
@@ -99,25 +99,25 @@ export default defineConfig({
         text: '二、NAS系统相关',
         collapsed: true,
         items: [
-          { text: '各Nas系统的分析对比', link: '/System/NAS系统相关：各Nas系统的分析对比' },
-          { text: 'RAID阵列', link: '/System/NAS系统相关：RAID阵列' }
+          { text: '各Nas系统的分析对比', link: '/System/Comparative analysis of Nas systems' },
+          { text: '常见的RAID阵列', link: '/System/Raid Array' }
         ]
       },
       {
         text: '三、NAS应用',
         collapsed: true,
         items: [
-          { text: 'PVE下安装WG-Easy', link: '/Application/NAS应用：PVE下安装WG-Easy' },
-          { text: 'Unraid 引导盘制作Flash GUID为0000结尾的处理方法', link: '/Application/NAS应用：Unraid 引导盘制作Flash GUID为0000结尾的处理方法' },
-          { text: '全自动化观影之 MoviePilot 安装与使用', link: '/Application/NAS应用：全自动化观影之 MoviePilot 安装与使用' }
+          { text: 'PVE下安装WG-Easy', link: '/Application/Installation of WG-Easy under PVE' },
+          { text: 'Unraid 引导盘制作Flash GUID为0000结尾的处理方法', link: '/Application/Flash GUID ends in 0000 processing method' },
+          { text: '全自动化观影之 MoviePilot 安装与使用', link: '/Application/MoviePilot Installation and Use' }
         ]
       },
       {
         text: '四、NAS使用指引',
         collapsed: true,
         items: [
-          { text: '物理群晖', link: '/Guide/NAS使用指引：物理群晖' },
-          { text: 'Unrai及虚拟群晖', link: '/Guide/NAS使用指引：Unrai及虚拟群晖' }
+          { text: '物理群晖', link: '/Guide/Synology Installation' },
+          { text: 'Unrai及虚拟群晖', link: '/Guide/Unrai and Virtual Synology' }
         ]
       }      
     ],

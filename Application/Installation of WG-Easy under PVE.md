@@ -1,6 +1,5 @@
 # NAS应用：PVE下安装WG-Easy
 
-June 2, 2024
 
 WG-Easy **最简单易用** 的高性能WireGuard服务器。可广泛应用于内网穿透、异地组网、远程办公等场景。本文仅在PVE平台下操作，Unraid、群辉等平台下可参照进行docker自定义部署。
 

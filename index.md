@@ -14,13 +14,13 @@ hero:
       link: /Hardware/NAS硬件杂谈：NAS机箱选择
     - theme: alt
       text: 系统相关
-      link: /System/NAS系统相关：各Nas系统的分析对比
+      link: /System/Comparative analysis of Nas systems
     - theme: alt
       text: NAS应用
-      link: /Application/NAS应用：PVE下安装WG-Easy
+      link: /Application/Installation of WG-Easy under PVE
     - theme: alt
       text: 使用指引
-      link: /Guide/NAS使用指引：物理群晖
+      link: /Guide/Synology Installation
 
 features:
   - title: NAS硬件杂谈
