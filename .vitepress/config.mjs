@@ -21,19 +21,19 @@ export default defineConfig({
       { text: 'NAS硬件杂谈',
         items: [
           {
-            text: 'NAS机箱',
+            text: '【01】 NAS机箱',
             link: '/Hardware/NAS Case'
           },
           {
-            text: '板U平台', 
+            text: '【02】 板U平台', 
             link: '/Hardware/Motherboard and CPU'
           },
           {
-            text: '机箱风道/风扇', 
+            text: '【03】 机箱风道/风扇', 
             link: '/Hardware/Case Duct and Fan'
           },
           {
-            text: '电源', 
+            text: '【04】 电源', 
             link: '/Hardware/Power Supply'
           }
         ]
@@ -41,11 +41,11 @@ export default defineConfig({
       { text: 'NAS系统相关',
         items: [
           {
-            text: '各Nas系统的分析对比',
+            text: '【01】 各Nas系统的分析对比',
             link: '/System/Comparative analysis of Nas systems'
           },
           {
-            text: '常见的RAID阵列', 
+            text: '【02】 常见的RAID阵列', 
             link: '/System/Raid Array'
           }
         ]
@@ -53,27 +53,35 @@ export default defineConfig({
       { text: 'NAS应用',
         items: [
           {
-            text: 'PVE下安装WG-Easy',
+            text: '【01】 PVE下安装WG-Easy',
             link: '/Application/Installation of WG-Easy under PVE'
           },
           {
-            text: 'Unraid 引导盘制作Flash GUID为0000结尾的处理方法', 
+            text: '【02】 Unraid 引导盘制作Flash GUID为0000结尾的处理方法', 
             link: '/Application/Flash GUID ends in 0000 processing method'
           },
           {
-            text: 'MoviePilot 安装与使用', 
+            text: '【03】 MoviePilot 安装与使用', 
             link: '/Application/MoviePilot Installation and Use'
+          },
+          {
+            text: '【04】 Unraid部署的思源笔记不能启动问题', 
+            link: '/Application/SiYuan Notes'
+          },
+          {
+            text: '【05】 解决Unraid的 Docker 镜像无法下载问题', 
+            link: '/Application/Docker image downloaded'
           }
         ]
       },
       { text: '使用指引',
         items: [
           {
-            text: '物理群晖',
+            text: '【01】 物理群晖',
             link: '/Guide/Synology Installation'
           },
           {
-            text: 'Unrai及虚拟群晖', 
+            text: '【02】 Unrai及虚拟群晖', 
             link: '/Guide/Unrai and Virtual Synology'
           }
         ]
@@ -86,38 +94,40 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '一、NAS硬件杂谈',
+        text: '【1.0】 NAS硬件杂谈',
         collapsed: false,
         items: [
-          { text: 'NAS机箱', link: '/Hardware/NAS Case' },
-          { text: '板U平台', link: '/Hardware/Motherboard and CPU' },
-          { text: '机箱风道/风扇', link: '/Hardware/Case Duct and Fan' },
-          { text: '电源', link: '/Hardware/Power Supply' },  
+          { text: '【1.01】-NAS机箱', link: '/Hardware/NAS Case' },
+          { text: '【1.02】-板U平台', link: '/Hardware/Motherboard and CPU' },
+          { text: '【1.03】-机箱风道/风扇', link: '/Hardware/Case Duct and Fan' },
+          { text: '【1.04】-电源', link: '/Hardware/Power Supply' },  
         ]
       },
       {
-        text: '二、NAS系统相关',
+        text: '【2.0】 NAS系统相关',
         collapsed: true,
         items: [
-          { text: '各Nas系统的分析对比', link: '/System/Comparative analysis of Nas systems' },
-          { text: '常见的RAID阵列', link: '/System/Raid Array' }
+          { text: '【2.01】-各Nas系统的分析对比', link: '/System/Comparative analysis of Nas systems' },
+          { text: '【2.02】-常见的RAID阵列', link: '/System/Raid Array' }
         ]
       },
       {
-        text: '三、NAS应用',
+        text: '【3.0】 NAS应用',
         collapsed: true,
         items: [
-          { text: 'PVE下安装WG-Easy', link: '/Application/Installation of WG-Easy under PVE' },
-          { text: 'Unraid 引导盘制作Flash GUID为0000结尾的处理方法', link: '/Application/Flash GUID ends in 0000 processing method' },
-          { text: 'MoviePilot 安装与使用', link: '/Application/MoviePilot Installation and Use' }
+          { text: '【3.01】-PVE下安装WG-Easy', link: '/Application/Installation of WG-Easy under PVE' },
+          { text: '【3.02】-Unraid 引导盘制作Flash GUID为0000结尾的处理方法', link: '/Application/Flash GUID ends in 0000 processing method' },
+          { text: '【3.03】-MoviePilot 安装与使用', link: '/Application/MoviePilot Installation and Use' },
+          { text: '【3.04】-Unraid部署的思源笔记不能启动问题', link: '/Application/SiYuan Notes' },
+          { text: '【3.05】-解决Unraid的 Docker 镜像无法下载问题', link: '/Application/Docker image downloaded' }
         ]
       },
       {
-        text: '四、NAS使用指引',
+        text: '【4.0】 NAS使用指引',
         collapsed: true,
         items: [
-          { text: '物理群晖', link: '/Guide/Synology Installation' },
-          { text: 'Unrai及虚拟群晖', link: '/Guide/Unrai and Virtual Synology' }
+          { text: '【4.01】-物理群晖', link: '/Guide/Synology Installation' },
+          { text: '【4.02】-Unrai及虚拟群晖', link: '/Guide/Unrai and Virtual Synology' }
         ]
       }      
     ],
