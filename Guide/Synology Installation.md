@@ -7,22 +7,27 @@
 1. 安装好硬盘并插上U盘，连接电源线、网线，开机。
 2. 查找群晖有四种方法：
 
-- **方法一**（推荐）：
+- #### 方法一（推荐）：
+  
   ①下载群晖助手并安装
   https://global.synologydownload.com/download/Utility/Assistant/7.0.4-50051/Windows/synology-assistant-7.0.4-50051.exe?model=SA6400&bays=12&dsm_version=7.2.1&build_number=69057
-
+  
   ②打开群晖助手，一般情况下会自动显示局域网内群晖设备，如果没显示请点搜索，等显示群晖IP地址等相关信息后双击。
 
 ![2024-05-31 11 01 26 641  Gemoo Snap.png](https://nas-u.top/usr/uploads/2024/05/2809347334.png)
 
-- **方法二**：
+- #### 方法二：
+
   直接在浏览器输入[http://find.synology.com](http://find.synology.com/)，会自动帮你查找NAS设备，点连接即可。
-- **方法三**：
+
+- #### 方法三：
+  
   连接显示器，2分钟左右屏幕会显示设备IP，浏览器输入 "http://设备IP:5000"，如：[http://10.10.10.20:5000](http://10.10.10.20:5000/)
 
 ![2024-05-31 11 03 57 27  Gemoo Snap.png](https://nas-u.top/usr/uploads/2024/05/2598487719.png)
 
-- **方法四**：
+- #### 方法四：
+
   进入路由器后台，找到新加入的设备IP，浏览器输入 "http://设备IP:5000"，如：[http://10.10.10.20:5000](http://10.10.10.20:5000/)
 
 ## 二、安装群晖系统
@@ -98,11 +103,13 @@
 ![2024-05-31 13 11 45 831  Gemoo Snap.png](https://nas-u.top/usr/uploads/2024/05/1569614786.png)
 
 4. 根据需要，选择磁盘模式。建议选择“SHR”模式；
+   
    *SHR 是群晖独创的阵列，和RAID5类似。该阵列有一个容错硬盘，当硬盘损坏一块的时候，数据也不会丢失，相对来说还是比较安全的。SHR相对RAID5空间利用率会更高。*
 
 ![2024-05-31 13 24 48 717  Gemoo Snap.png](https://nas-u.top/usr/uploads/2024/05/3775984703.png)
 
 5. 选择需要的硬盘后，一直点击下一步
+
    *扩展提示：若**后续增加硬盘**，请参考官方指引*
    [*添加硬盘以扩充存储池容量 | DSM - Synology 知识中心*](https://kb.synology.cn/zh-cn/DSM/help/DSM/StorageManager/storage_pool_expand_add_disk?version=7)
 
@@ -211,7 +218,7 @@
 
 套件的种类很多，可以搜索网上相关教程或官方文档，特别的各类Docker应用。
 
-## 八、提醒：
+## 八、提醒
 
 1. 建议等熟练操作后再正式导入数据，且 重要数据多做备份（如定时移动硬盘冷备份，备份至阿里云盘等）。
 2. 群晖的设置及应用内容较多，网上有很多大佬分享保姆级教程，请善用搜索引擎。
