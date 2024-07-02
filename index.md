@@ -1,35 +1,24 @@
----
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home
+# NAS搭建与应用@Nas·U
 
-hero:
-  name: "NAS搭建与应用"
-  tagline: NAS硬件搭建、系统安装及配置、Docker及虚拟机应用交流
-  image:
-    src: /nasu.png
-    alt: NAS·U
-  actions:
-    - theme: brand
-      text: 硬件杂谈
-      link: /Hardware/NAS Case
-    - theme: alt
-      text: 系统相关
-      link: /System/Comparative analysis of Nas systems
-    - theme: alt
-      text: NAS应用
-      link: /Application/Installation of WG-Easy under PVE
-    - theme: alt
-      text: 使用指引
-      link: /Guide/Synology Installation
+## 关于我
 
-features:
-  - title: 个人爱好
-    details: 博主是一位独立设计师和数码爱好者。兴趣和专注点集中在NAS（网络附加存储）领域。
-  - title: 资深玩家
-    details: 作为NAS领域的玩家，精通群晖、Unraid、PVE和Esxi等平台，善于利用它们的特性，打造定制化的存储解决方案。
-  - title: 诚信为本
-    details: 始终秉持诚信原则，800+的芝麻信用分数。无论是咨询服务还是系统建设，都以客户需求为先，努力提供最优质的解决方案。
-  - title: 交流合作
-    details: 如果您对NAS或其他数码领域有任何疑问或合作意向，欢迎随时与我联系。海鲜市场（闲鱼）号码：di_photos
----
+我是Nas·U （Nas友），构建这个站点本意是为了能够分享我在NAS硬件搭建、系统安装及配置、Docker及虚拟机应用的经验，同时也希望能与广大的Nas爱好者进行交流。
+
+Nas·U是一位设计师，同时也是一位电子数码爱好者，刚开始接触Nas时也是跟绝大多数人一样从星际蜗牛+黑群晖开始上手，起初是为了存储、同步工作资料与照片。慢慢的跟着各位大佬学习了影音库搭建及自动下载，并接触到了各类新奇的Docker、虚拟机，给自己的生活打开了一遍新天地。当然随之而来的是越来越不满足于蜗牛的硬件性能，逐渐走上了NAS DIY之旅。
+
+在一路的自我折腾同时，Nas·U也帮很多人组装了 NAS，有身边的亲朋好友，也有从未见面的网友；有初入门的小白用户，也有斥资万金只为看电影的土豪大佬，还有不少是用来给团队搭建影视剪辑的公司用户，期间遇到了不少奇奇怪怪的需求。总之，对于各种 NAS 系统都折腾过，积累了不少的经验，希望能通过这个网站分享给大家，能让大家节省时间，少走弯路。
+
+
+
+## 本站使用方法
+
+本站内容较多，可以点击顶部的  **`Search`**  搜索框或者快捷键  **`Ctrl + K`**  进行搜索。
+
+
+
+## 联系我
+
+需要说明的是，本网站致力于提供高质量的内容，所有内容都来自于我的经验，一定会有不足，或者含有某些错误的地方，如果你发现了错误，欢迎联系我指正，感激不尽！
+
+如果你需要定制 NAS，或者有 NAS 相关的疑问，也可以点上方的 `联系我` 咨询。
 
