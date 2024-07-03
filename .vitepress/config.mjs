@@ -79,27 +79,35 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'NAS硬件',
+        text: '硬件选择',
         collapsed: false,
         items: [
           {
-          text: '机箱',
+          text: 'NAS机箱',
           collapsed: true,
           items: [
             { text: 'NAS机箱省流版', link: '/Hardware/NAS Case' },
-            { text: '★★★★★ | Tank机箱', link: '/Hardware/Tank' },
-            { text: '★★★★☆ | 宝藏盒Pro', link: '/Hardware/Treasure PRO' }
+            { text: 'Tank机箱', link: '/Hardware/Tank' },
+            { text: '宝藏盒Pro', link: '/Hardware/Treasure PRO' }
           ]
           },
-          { text: 'CPU', link: '/Hardware/Motherboard and CPU' },          
-          { text: '主板', link: '/Hardware/Motherboard and CPU' },
+          {
+            text: '主板及CPU',
+            collapsed: true,
+            items: [
+              { text: '平台选择考虑因素', link: '/Hardware/Motherboard and CPU' },
+              { text: '低功耗平台', link: '/Hardware/Low-power platforms' },
+              { text: '消费级平台', link: '/Hardware/Consumer platforms' },
+              { text: '专业服务器平台', link: '/Hardware/Treasure PRO' },
+            ]
+            },
           { text: '内存', link: '/Hardware/Memory' },
           { text: '机箱风道/风扇', link: '/Hardware/Case Duct and Fan' },
           { text: '电源', link: '/Hardware/Power Supply' },  
         ]
       },
       {
-        text: 'NAS系统',
+        text: '系统及设置',
         collapsed: true,
         items: [
           { text: '各Nas系统的分析对比', link: '/System/Comparative analysis of Nas systems' },
