@@ -84,23 +84,23 @@ export default defineConfig({
         items: [
           {
           text: 'NAS机箱',
-          collapsed: true,
+          collapsed: false,
           items: [
-            { text: 'NAS机箱省流版', link: '/Hardware/NAS Case' },
+            { text: '机箱省流版', link: '/Hardware/NAS Case' },
             { text: 'Tank机箱', link: '/Hardware/Tank' },
             { text: '宝藏盒Pro', link: '/Hardware/Treasure PRO' }
           ]
           },
           {
             text: '主板及CPU',
-            collapsed: true,
+            collapsed: false,
             items: [
               { text: '平台选择考虑因素', link: '/Hardware/Motherboard and CPU' },
               { text: '低功耗平台', link: '/Hardware/Low-power platforms' },
               { text: '消费级平台', link: '/Hardware/Consumer platforms' },
-              { text: '专业服务器平台', link: '/Hardware/Treasure PRO' },
             ]
             },
+          { text: '硬盘', link: '/Hardware/Hardisk' },
           { text: '内存', link: '/Hardware/Memory' },
           { text: '机箱风道/风扇', link: '/Hardware/Case Duct and Fan' },
           { text: '电源', link: '/Hardware/Power Supply' },  
@@ -108,7 +108,7 @@ export default defineConfig({
       },
       {
         text: '系统及设置',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: '各Nas系统的分析对比', link: '/System/Comparative analysis of Nas systems' },
           { text: '常见的RAID阵列', link: '/System/Raid Array' }
@@ -127,7 +127,7 @@ export default defineConfig({
       },
       {
         text: '使用指引',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: '物理群晖', link: '/Guide/Synology Installation' },
           { text: 'Unrai及虚拟群晖', link: '/Guide/Unrai and Virtual Synology' }
