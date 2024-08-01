@@ -23,54 +23,22 @@ export default defineConfig({
       { text: '首页',
         link: '/index'
       },
-      { text: 'NAS系统',
+      { text: '联系方式',
         items: [
           {
-            text: '【01】 各Nas系统的分析对比',
-            link: '/System/Comparative analysis of Nas systems'
+            text: '关于Nas·U',
+            link: '/index'
           },
           {
-            text: '【02】 常见的RAID阵列', 
+            text: 'Nas定制', 
+            link: '/Nas Customized'
+          },
+          {
+            text: '联系方式', 
             link: '/System/Raid Array'
-          }
+          },
         ]
-      },
-      { text: 'NAS应用',
-        items: [
-          {
-            text: '【01】 PVE下安装WG-Easy',
-            link: '/Application/Installation of WG-Easy under PVE'
-          },
-          {
-            text: '【02】 Unraid 引导盘制作Flash GUID为0000结尾的处理方法', 
-            link: '/Application/Flash GUID ends in 0000 processing method'
-          },
-          {
-            text: '【03】 MoviePilot 安装与使用', 
-            link: '/Application/MoviePilot Installation and Use'
-          },
-          {
-            text: '【04】 Unraid部署的思源笔记不能启动问题', 
-            link: '/Application/SiYuan Notes'
-          },
-          {
-            text: '【05】 解决Unraid的 Docker 镜像无法下载问题', 
-            link: '/Application/Docker image downloaded'
-          }
-        ]
-      },
-      { text: '使用指引',
-        items: [
-          {
-            text: '【01】 物理群晖',
-            link: '/Guide/Synology Installation'
-          },
-          {
-            text: '【02】 Unrai及虚拟群晖', 
-            link: '/Guide/Unrai and Virtual Synology'
-          }
-        ]
-      },
+      },      
     ],
     docFooter: { 
       prev: '上一文', 
@@ -88,7 +56,12 @@ export default defineConfig({
           items: [
             { text: '机箱省流版', link: '/Hardware/NAS Case' },
             { text: 'Tank机箱', link: '/Hardware/Tank' },
-            { text: '宝藏盒Pro', link: '/Hardware/Treasure PRO' }
+            { text: '宝藏盒Pro', link: '/Hardware/Treasure PRO' },
+            { text: '半人马座', link: '/Hardware/Centaurus' },
+            { text: '乔思伯N2', link: '/Hardware/N2' },
+            { text: '乔思伯N4', link: '/Hardware/N4' },
+            { text: '迎广MS04', link: '/Hardware/MS04' },
+            { text: 'Nbox', link: '/Hardware/Nbox' }
           ]
           },
           {
