@@ -105,7 +105,7 @@ export default defineConfig({
               { text: '2.2.02-Unraid分配硬盘', link: '/Guide/Unrai and Virtual Synology_002' },
               { text: '2.2.03-用户及文件夹设置', link: '/Guide/Unrai and Virtual Synology_003' }, 
               { text: '2.2.04-常用Docker简介', link: '/Guide/Unrai and Virtual Synology_004' },
-              { text: '2.2.05-创建共享文件夹', link: '/Guide/Unrai and Virtual Synology_005' },
+              { text: '2.2.05-创建虚拟群晖', link: '/Guide/Unrai and Virtual Synology_005' },
               { text: '2.2.06-新增用户', link: '/Guide/Unrai and Virtual Synology_006' }, 
               { text: '2.2.07-常用套件', link: '/Guide/Unrai and Virtual Synology_007' },                                                                           
             ]
