@@ -98,18 +98,23 @@ export default defineConfig({
             ]
           }, 
           {
-            text: '2.2-Unrai及虚拟群晖',
+            text: '2.2-Unraid配置',
             collapsed: false,
             items: [
-              { text: '2.2.01-前期准备', link: '/Guide/Unrai and Virtual Synology_001' },
-              { text: '2.2.02-Unraid分配硬盘', link: '/Guide/Unrai and Virtual Synology_002' },
-              { text: '2.2.03-用户及文件夹设置', link: '/Guide/Unrai and Virtual Synology_003' }, 
-              { text: '2.2.04-常用Docker简介', link: '/Guide/Unrai and Virtual Synology_004' },
-              { text: '2.2.05-创建虚拟群晖', link: '/Guide/Unrai and Virtual Synology_005' },
-              { text: '2.2.06-新增用户', link: '/Guide/Unrai and Virtual Synology_006' }, 
-              { text: '2.2.07-常用套件', link: '/Guide/Unrai and Virtual Synology_007' },                                                                           
+              { text: '2.2.01-前期准备', link: '/Guide/Unraid_001' },
+              { text: '2.2.02-Unraid分配硬盘', link: '/Guide/Unraid_002' },
+              { text: '2.2.03-用户及文件夹设置', link: '/Guide/Unraid_003' }, 
+              { text: '2.2.04-常用Docker简介', link: '/Guide/Unraid_004' },                                                                      
             ]
-          },                       
+          }, 
+          {
+            text: '2.3-虚拟群晖',
+            collapsed: false,
+            items: [
+              { text: '2.3.01-创建虚拟群晖', link: '/Guide/Virtual Synology_001' },
+              { text: '2.3.02-群晖引导配置', link: '/Guide/Virtual Synology_002' },                                                                          
+            ]
+          },                                  
         ]
       },  
       {
