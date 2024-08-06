@@ -90,10 +90,26 @@ export default defineConfig({
             items: [
               { text: '2.1.01-获取群辉IP', link: '/Guide/Synology Installation_001' },
               { text: '2.1.02-完善系统安装', link: '/Guide/Synology Installation_002' },
-              { text: '2.1.03-创建存储空间', link: '/Guide/Synology Installation_003' },             
+              { text: '2.1.03-创建存储空间', link: '/Guide/Synology Installation_003' }, 
+              { text: '2.1.04-取消访问安全提示', link: '/Guide/Synology Installation_004' },
+              { text: '2.1.05-创建共享文件夹', link: '/Guide/Synology Installation_005' },
+              { text: '2.1.06-新增用户', link: '/Guide/Synology Installation_006' }, 
+              { text: '2.1.07-常用套件', link: '/Guide/Synology Installation_007' },                                                                           
             ]
-          },             
-          { text: '2.2-Unrai及虚拟群晖', link: '/Guide/Unrai and Virtual Synology' }
+          }, 
+          {
+            text: '2.2-Unrai及虚拟群晖',
+            collapsed: false,
+            items: [
+              { text: '2.2.01-前期准备', link: '/Guide/Unrai and Virtual Synology_001' },
+              { text: '2.2.02-Unraid分配硬盘', link: '/Guide/Unrai and Virtual Synology_002' },
+              { text: '2.2.03-用户及文件夹设置', link: '/Guide/Unrai and Virtual Synology_003' }, 
+              { text: '2.2.04-常用Docker简介', link: '/Guide/Unrai and Virtual Synology_004' },
+              { text: '2.2.05-创建共享文件夹', link: '/Guide/Unrai and Virtual Synology_005' },
+              { text: '2.2.06-新增用户', link: '/Guide/Unrai and Virtual Synology_006' }, 
+              { text: '2.2.07-常用套件', link: '/Guide/Unrai and Virtual Synology_007' },                                                                           
+            ]
+          },                       
         ]
       },  
       {
