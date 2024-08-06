@@ -102,7 +102,7 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: '2.2.01-前期准备', link: '/Guide/Unraid_001' },
-              { text: '2.2.02-Unraid分配硬盘', link: '/Guide/Unraid_002' },
+              { text: '2.2.02-分配硬盘', link: '/Guide/Unraid_002' },
               { text: '2.2.03-用户及文件夹设置', link: '/Guide/Unraid_003' }, 
               { text: '2.2.04-常用Docker简介', link: '/Guide/Unraid_004' },                                                                      
             ]
