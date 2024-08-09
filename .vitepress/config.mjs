@@ -31,7 +31,7 @@ export default defineConfig({
           },
           {
             text: '应用需求了解', 
-            link: 'https://wj.qq.com/s2/15078287/61e4/'
+            link: 'https://wj.qq.com/s2/15078287/61e4'
           },
         ]
       },
