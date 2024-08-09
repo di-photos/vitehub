@@ -23,6 +23,18 @@ export default defineConfig({
       { text: '首页',
         link: '/index'
       },
+      { text: 'Nas定制',
+        items: [
+          {
+            text: 'Nas定制介绍', 
+            link: '/Nas Customized'
+          },
+          {
+            text: '应用需求了解', 
+            link: 'https://wj.qq.com/s2/15078287/61e4/'
+          },
+        ]
+      },
       { text: '联系方式',
         items: [
           {
@@ -30,15 +42,11 @@ export default defineConfig({
             link: '/index'
           },
           {
-            text: 'Nas定制', 
-            link: '/Nas Customized'
-          },
-          {
             text: '联系方式', 
-            link: '/System/Raid Array'
+            link: 'contact'
           },
         ]
-      },      
+      },         
     ],
     docFooter: { 
       prev: '上一文', 
