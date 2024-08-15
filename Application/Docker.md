@@ -52,11 +52,11 @@
 
 **Qbittorrent（荐）**
 
-地址：[linuxserver/qbittorrent](https://hub.docker.com/r/linuxserver/qbittorrent)
+地址：linuxserver/qbittorrent
 
 **迅雷**
 
-地址：[cnk3x/xunlei](https://hub.docker.com/r/cnk3x/xunlei)
+地址：cnk3x/xunlei
 
 
 
