@@ -130,18 +130,23 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '3.01-各Nas系统的分析对比', link: '/System/Comparative analysis of Nas systems' },
-          { text: '3.02-常见的RAID阵列', link: '/System/Raid Array' }
+          { text: '3.02-常见的RAID阵列', link: '/System/Raid Array' },
+          { text: '3.03-黑群密码找回', link: '/System/Reset Password' },    
+          { text: '3.04-文件传输Rsync命令', link: '/System/Rsync Command' },                        
         ]
       },
       {
         text: '4-NAS应用',
         collapsed: true,
         items: [
-          { text: '4.01-PVE下安装WG-Easy', link: '/Application/Installation of WG-Easy under PVE' },
-          { text: '4.02-Unraid 引导盘制作Flash GUID为0000结尾的处理方法', link: '/Application/Flash GUID ends in 0000 processing method' },
-          { text: '4.03-MoviePilot 安装与使用', link: '/Application/MoviePilot Installation and Use' },
-          { text: '4.04-Unraid部署的思源笔记不能启动问题', link: '/Application/SiYuan Notes' },
-          { text: '4.05-解决Unraid的 Docker 镜像无法下载问题', link: '/Application/Docker image downloaded' }
+          { text: '4.01-常用Docker', link: '/Application/Docker' },
+          { text: '4.02-PVE下安装WG-Easy', link: '/Application/Installation of WG-Easy under PVE' },
+          { text: '4.03-引导盘制作GUID问题', link: '/Application/Flash GUID ends in 0000 processing method' },
+          { text: '4.04-MoviePilot 安装与使用', link: '/Application/MoviePilot Installation and Use' },
+          { text: '4.05-U思源笔记不能启动问题', link: '/Application/SiYuan Notes' },
+          { text: '4.06-Docker 镜像无法下载问题', link: '/Application/Docker image downloaded' },
+          { text: '4.07-Docker 群晖激活ABB套件', link: '/Application/Active Backup for Business' },     
+              
         ]
       }, 
     ],
