@@ -129,10 +129,30 @@ export default defineConfig({
         text: '3- 系统及设置',
         collapsed: false,
         items: [
-          { text: '3.01-各Nas系统的分析对比', link: '/System/Comparative analysis of Nas systems' },
-          { text: '3.02-常见的RAID阵列', link: '/System/Raid Array' },
-          { text: '3.03-黑群密码找回', link: '/System/Reset Password' },    
-          { text: '3.04-文件传输Rsync命令', link: '/System/Rsync Command' },                        
+          {
+            text: '3.1-综合',
+            collapsed: true,
+            items: [
+              { text: '3.1.01-各Nas系统的分析对比', link: '/System/Comparative analysis of Nas systems' },
+              { text: '3.1.02-常见的RAID阵列', link: '/System/Raid Array' },                                                                         
+            ]
+          }, 
+          {
+            text: '3.2-Unraid',
+            collapsed: true,
+            items: [
+              { text: '3.2.01-文件传输Rsync命令', link: '/System/Rsync Command' }, 
+              { text: '3.2.02-Unraid重置密码', link: '/System/Unraid Reset Password' },                                                                                      
+            ]
+          }, 
+          {
+            text: '3.3-群辉',
+            collapsed: true,
+            items: [
+              { text: '3.3.01-黑群密码找回', link: '/System/Reset Password' },                                                                     
+            ]
+          },                
+                    
         ]
       },
       {
