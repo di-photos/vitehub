@@ -7,7 +7,7 @@
 1. 强行关闭服务器（非紧要关头情况下不建议）。
 2. 将引导U盘拔下，插入其他可用电脑。
 
-3. 打开USB文件夹config并删除文件“ shadow”、“ smbpasswd” 、“ 、passwd”三个文件。
+3. 打开引导U盘  **文件夹config**并删除文件“ **shadow**”、“ **smbpasswd**” 、“ **passwd**”三个文件。
 
    ![9de3d849f4caee19c17bb.png](https://img.nas-u.top/file/9de3d849f4caee19c17bb.png)
 
