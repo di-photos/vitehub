@@ -6,13 +6,13 @@
 
 **Jellyfin（荐）**
 
-地址：[nyanmisaka/jellyfin]([hub.docker.com/r/nyanmisaka/jellyfin](https://hub.docker.com/r/nyanmisaka/jellyfin))    ——中国特供版，含驱动，免折腾，开箱即用
+地址：nyanmisaka/jellyfin    ——中国特供版，含驱动，免折腾，开箱即用
 
 
 
 **Embyserver**
 
-地址：[emby/embyserver](https://hub.docker.com/r/emby/embyserver)
+地址：emby/embyserver
 
 
 
@@ -20,15 +20,15 @@
 
 **MT-Photos（荐）**
 
-地址： [mtphotos/mt-photos](https://hub.docker.com/r/mtphotos/mt-photos)
+地址： mtphotos/mt-photos
 
 **Lychee**
 
-地址：[linuxserver/lychee](https://hub.docker.com/r/linuxserver/lychee)
+地址：linuxserver/lychee
 
 **Photoprism**
 
-地址：[photoprism/photoprism](https://hub.docker.com/r/photoprism/photoprism)
+地址：photoprism/photoprism
 
 
 
@@ -36,15 +36,15 @@
 
 **Filebrowser（荐）**
 
-地址：[filebrowser/filebrowser](https://hub.docker.com/r/filebrowser/filebrowser)
+地址：filebrowser/filebrowser
 
 **Filerun**
 
-地址：[filerun/filerun](https://hub.docker.com/r/filerun/filerun)
+地址：filerun/filerun
 
 **Krusader**
 
-地址：[ich777/krusader](https://hub.docker.com/r/ich777/krusader)    ——主要是用于资源管理，双窗口，方便内部文件整理
+地址：ich777/krusader  ——主要是用于资源管理，双窗口，方便内部文件整理
 
 
 
@@ -64,7 +64,7 @@
 
 **Vaultwarden（荐）**
 
-地址：[vaultwarden/server](https://hub.docker.com/r/vaultwarden/server)
+地址：vaultwarden/server
 
 
 
@@ -72,7 +72,7 @@
 
 **Heimdall（荐）**
 
-地址：[linuxserver/heimdall](https://hub.docker.com/r/linuxserver/heimdall)
+地址：linuxserver/heimdall
 
 
 
@@ -80,7 +80,7 @@
 
 **Homeassistant**
 
-地址：[homeassistant/qemux86-64-homeassistant](https://hub.docker.com/r/homeassistant/qemux86-64-homeassistant)
+地址：homeassistant/qemux86-64-homeassistant
 
 
 
@@ -88,11 +88,11 @@
 
 **Mariadb**
 
-地址：[linuxserver/mariadb](https://hub.docker.com/r/linuxserver/mariadb)
+地址：linuxserver/mariadb
 
 **Phpmyadmin**
 
-地址：[linuxserver/phpmyadmin](https://hub.docker.com/r/linuxserver/phpmyadmin)    ——数据库网页管理
+地址：linuxserver/phpmyadmin   ——数据库网页管理
 
 
 
@@ -100,7 +100,7 @@
 
 **Wiznote**
 
-地址：[wiznote/wizserver](https://hub.docker.com/r/wiznote/wizserver)
+地址：wiznote/wizserver
 
 
 
@@ -108,11 +108,11 @@
 
 **Typecho**
 
-地址：[80x86/typecho](https://hub.docker.com/r/80x86/typecho)
+地址：80x86/typecho
 
 **Wordpress**
 
-地址：[wordpress](https://hub.docker.com/_/wordpress)
+地址：wordpress
 
 
 
@@ -120,11 +120,11 @@
 
 **Syncting**
 
-地址：[linuxserver/syncthing](https://hub.docker.com/r/linuxserver/syncthing)
+地址：linuxserver/syncthing
 
 **Luckybackup**
 
-地址：[ich777/luckybackup](https://hub.docker.com/r/ich777/luckybackup)     ——用要用于服务器内部不同文件夹或硬盘自检自动同
+地址：ich777/luckybackup     ——用要用于服务器内部不同文件夹或硬盘自检自动同
 
 
 
@@ -132,7 +132,7 @@
 
 **Alist（荐）**
 
-地址：[xhofe/alist](https://hub.docker.com/r/xhofe/alist)
+地址：xhofe/alist
 
 
 
@@ -142,7 +142,7 @@
 
 **Calibre-web**
 
-地址：[linuxserver/calibre-web](https://hub.docker.com/r/linuxserver/calibre-web)
+地址：linuxserver/calibre-web
 
 
 
@@ -150,16 +150,16 @@
 
 **Webdav**
 
-地址：[ck98/webdav-nginx](https://hub.docker.com/r/ck98/webdav-nginx)    ——可以将Unraid以webdav的形式开放出去，方便挂载
+地址：ck98/webdav-nginx    ——可以将Unraid以webdav的形式开放出去，方便挂载
 
 **青龙面板**
 
-地址：[whyour/qinglong](https://hub.docker.com/r/whyour/qinglong)    ——主要用于挂豆子
+地址：whyour/qinglong    ——主要用于挂豆子
 
 **Lucky（荐）**
 
-地址：[gdy666/lucky](https://hub.docker.com/r/gdy666/lucky)    ——反向代理，替代socat，IPv6 tcp/udp 转发内网IPv4，动态域名服务
+地址：gdy666/lucky  ——反向代理，替代socat，IPv6 tcp/udp 转发内网IPv4，动态域名服务
 
 **Nginx-proxy-manager**
 
-地址：[jlesage/nginx-proxy-manager](https://hub.docker.com/r/jlesage/nginx-proxy-manager)    ——反向代理
+地址：jlesage/nginx-proxy-manager    ——反向代理
