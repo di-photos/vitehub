@@ -24,15 +24,10 @@
 
 2. 注册完成后，打开 Tailscale 官方网站 [Tailscale.com](https://Tailscale.com)，点击 “Get started” 。
 
-   ![](D:\ViteP\Image\Tailscape\Nasu_2024-10-09_14-25-03.png)
-
 3. 选择中间的微软账号登录，使用注册好的 outlook 邮箱进行登录。
-
-   ![](D:\ViteP\Image\Tailscape\Nasu_2024-10-09_14-44-01.png)
 
 4. 登录到 tailscale 后，未添加设备的情况下，会看到没有任何设备列表（图中显示我的账号已经添加了3个设备）。
 
-   ![](D:\ViteP\Image\Tailscape\Nasu_2024-10-09_14-48-38.png)
 
 ### （二）群晖 NAS 安装 Tailscale 套件
 
@@ -51,7 +46,7 @@
 
 ## 三、Tailscale 的高级功能与设置
 
-![alt](undefined)
+
 
 ### （一）子网路由设置
 
@@ -67,7 +62,7 @@
 
 ## 四、总结与展望
 
-![alt](undefined)
+
 
 Tailscale 与群晖的结合为用户带来了极大的便利，无论是远程访问还是文件管理方面都展现出了强大的优势。
 
