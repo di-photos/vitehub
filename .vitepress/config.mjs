@@ -149,7 +149,8 @@ export default defineConfig({
             text: '3.3-群辉',
             collapsed: true,
             items: [
-              { text: '3.3.01-黑群密码找回', link: '/System/Reset Password' },                                                                     
+              { text: '3.3.01-黑群密码找回', link: '/System/Reset Password' },
+              { text: '3.3.02-外网访问内网群晖——Tailscale', link: '/System/Synology and Tailscale.md' },                                                                      
             ]
           },                
                     
